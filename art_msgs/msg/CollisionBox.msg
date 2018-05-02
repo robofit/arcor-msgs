@@ -1,0 +1,3 @@
+string name
+shape_msgs/SolidPrimitive bbox
+geometry_msgs/PoseStamped pose
