@@ -36,6 +36,7 @@ add_message_files(
   UserArray.msg
   CollisionPrimitive.msg
   CollisionObjects.msg
+  Color.msg
 )
 
 add_service_files(
