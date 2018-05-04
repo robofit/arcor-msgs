@@ -34,13 +34,15 @@ add_message_files(
   Touch.msg
   User.msg
   UserArray.msg
-  CollisionBox.msg
+  CollisionPrimitive.msg
   CollisionObjects.msg
 )
 
 add_service_files(
     FILES
-    AddCollisionBox.srv
+    AddCollisionPrimitive.srv
+    GetCollisionPrimitives.srv
+    ClearCollisionPrimitives.srv
     getProgram.srv
     getProgramHeaders.srv
     storeProgram.srv

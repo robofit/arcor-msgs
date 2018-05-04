@@ -1,0 +1,4 @@
+string setup
+string[] names # when no name is given, it should clear all
+---
+bool success

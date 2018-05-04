@@ -1,1 +1,1 @@
-CollisionBox boxes
+CollisionPrimitive[] primitives
