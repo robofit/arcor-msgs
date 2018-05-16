@@ -1,0 +1,5 @@
+geometry_msgs/PoseStamped ps
+string str
+---
+bool success
+string message

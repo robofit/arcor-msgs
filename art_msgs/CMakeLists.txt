@@ -59,6 +59,7 @@ add_service_files(
     ObjectFlagClear.srv
     ReinitArms.srv
     StringTrigger.srv
+    PoseStampedTrigger.srv
 )
 
 generate_messages(
