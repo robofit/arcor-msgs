@@ -34,10 +34,16 @@ add_message_files(
   Touch.msg
   User.msg
   UserArray.msg
+  CollisionPrimitive.msg
+  CollisionObjects.msg
+  Color.msg
 )
 
 add_service_files(
     FILES
+    AddCollisionPrimitive.srv
+    GetCollisionPrimitives.srv
+    ClearCollisionPrimitives.srv
     getProgram.srv
     getProgramHeaders.srv
     storeProgram.srv
@@ -52,6 +58,8 @@ add_service_files(
     ObjectFlagSet.srv
     ObjectFlagClear.srv
     ReinitArms.srv
+    StringTrigger.srv
+    PoseStampedTrigger.srv
 )
 
 generate_messages(

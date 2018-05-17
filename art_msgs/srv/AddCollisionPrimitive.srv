@@ -1,0 +1,4 @@
+CollisionPrimitive primitive
+---
+string name
+bool success
