@@ -3,8 +3,6 @@
 # Hololens states
 int16 STATE_IDLE=0
 int16 STATE_VISUALIZING=1
-int16 STATE_LEARNING_DRILL=2
-int16 STATE_LEARNING_PICK_FROM_FEEDER=3
 
 int16 hololens_state
 
