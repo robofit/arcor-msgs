@@ -34,6 +34,7 @@ add_message_files(
   Touch.msg
   User.msg
   UserArray.msg
+  HololensState.msg
   CollisionPrimitive.msg
   CollisionObjects.msg
   Color.msg
