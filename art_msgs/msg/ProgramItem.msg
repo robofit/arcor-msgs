@@ -4,6 +4,11 @@ uint16 on_failure # 0 means jump to block end
 
 uint16 type
 
+
+# understandable description of what this instruction does in the program/block
+# if set, it will be displayed instead of instruction name
+string name
+
 # -----------------------------------------------------
 # OPERATION TYPES
 # -----------------------------------------------------
