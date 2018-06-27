@@ -18,6 +18,9 @@ geometry_msgs/PolygonStamped[] polygon
 uint16[] ref_id # reference to another instruction
 KeyValue[] flags
 
+# which parameters should not be cleared when templating
+string[] do_not_clear
+
 # -----------------------------------------------------
 # OTHER STUFF
 # -----------------------------------------------------
