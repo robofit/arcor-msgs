@@ -38,6 +38,7 @@ add_message_files(
   CollisionPrimitive.msg
   CollisionObjects.msg
   Color.msg
+  ARTableConfig.msg
 )
 
 add_service_files(
@@ -61,6 +62,7 @@ add_service_files(
     ReinitArms.srv
     StringTrigger.srv
     PoseStampedTrigger.srv
+    getARTableConfig.srv
 )
 
 generate_messages(
