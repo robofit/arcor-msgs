@@ -104,7 +104,7 @@ script:
   - catkin build
   - source devel/setup.bash
   - catkin_lint $CI_SOURCE_PATH
-  - cd ~/catkin_ws/src/artable-msgs
+  - cd ~/catkin_ws/src/arcor-msgs
   - chmod +x run_tests.sh
   - ./run_tests.sh
 
