@@ -61,6 +61,7 @@ add_service_files(
     ReinitArms.srv
     StringTrigger.srv
     PoseStampedTrigger.srv
+    GetRosparam.srv
 )
 
 generate_messages(

@@ -15,3 +15,8 @@ int16 VISUALIZATION_STOP=4
 int16 VISUALIZATION_REPLAY=5
 
 int16 visualization_state
+
+# flags associated to hololens visualization, e.g. visualization of a whole program or just block
+# e.g. "visualize_whole_program":"true"
+#KeyValue[] flags
+bool visualize_whole_program
