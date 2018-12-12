@@ -1,3 +1,4 @@
 string param_name
 ---
-string rosparam_response
+bool success
+string message
