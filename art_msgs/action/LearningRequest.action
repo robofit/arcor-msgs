@@ -3,8 +3,9 @@
 uint16 request
 
 uint16 GET_READY=0 # prepare robot for learning current item
-uint16 EXECUTE_ITEM=1 # test programmed item
-uint16 DONE=2 # learning
+uint16 GET_READY_WITHOUT_ROBOT=1 # prepare robot for learning current item
+uint16 EXECUTE_ITEM=2 # test programmed item
+uint16 DONE=3 # learning
 ---
 bool success
 string message

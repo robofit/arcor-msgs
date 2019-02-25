@@ -49,6 +49,7 @@ add_service_files(
     getProgramHeaders.srv
     storeProgram.srv
     getObjectType.srv
+    getAllObjectTypes.srv
     storeObjectType.srv
     ProgramIdTrigger.srv
     TouchCalibrationPoints.srv
