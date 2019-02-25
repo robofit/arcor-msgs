@@ -17,6 +17,7 @@ add_action_files(
 
 add_message_files(
   FILES
+  GuiNotification.msg
   ObjInstance.msg
   ObjectType.msg
   InstancesArray.msg
